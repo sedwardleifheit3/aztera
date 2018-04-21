@@ -1,0 +1,65 @@
+/* ========================================================================
+/*! NIFTY ADMIN TEMPLATE V2.7.3
+/* -------------------------------------------------------------------------
+/* - themeOn.net -
+/* =========================================================================
+/*
+/*
+/*
+/* IMPORTANT :
+/* ===================================================================================================
+/* DON'T EDIT ANY CODE HERE, JUST LEAVE IT.
+/*
+/* You may edit the default color scheme.
+/* You may change the variable value inside the _variables.LESS file and re-compiling using this file.
+/*
+/* If you make changes directly in the CSS and/ or LESS-files from Nifty,
+/* it will be hard to update if I release an update. So I would recommend to create a new CSS/ LESS-file for this purpose.
+/*
+*/
+
+//Fonts
+
+
+// Bootstrap
+@import "~bootstrap-sass/assets/stylesheets/bootstrap";
+
+
+@import "_variables";
+$main-compile       : true;
+
+// Set as default color scheme.
+//@import "themes/type-a/theme-coffee";
+
+
+
+@import "nifty/_layout";
+@import "nifty/_navbar";
+@import "nifty/_mainnav";
+@import "nifty/_aside";
+@import "nifty/_footer";
+@import "nifty/_animations";
+@import "nifty/_extras";
+@import "nifty/_bs-overwrite";
+@import "nifty/_helper-classes";
+
+/**
+ * Icons
+ */
+@import "premium/icon-sets/icons/solid-icons/premium-solid-icons.css";
+@import "premium/icon-sets/icons/line-icons/premium-line-icons.css";
+@import "plugins/font-awesome/scss/font-awesome";
+
+
+/**
+ * Plugins
+ */
+@import "plugins/magic-check/sass/magic-check";
+@import "plugins/bootstrap-table.css";
+@import "plugins/bootstrap-datepicker.css";
+@import "plugins/bootstrapValidator.css";
+@import "plugins/dropzone.css";
+@import "plugins/select2.css";
+@import "plugins/switchery.css";
+@import "plugins/morris.min.css";
+@import "adjustments";

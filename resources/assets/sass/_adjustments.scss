@@ -1,0 +1,168 @@
+
+body {
+    background-color: #EEFCE0;
+ 
+}
+
+#container {
+  &.cls-container {
+    background-color: #EEFCE0;    
+  }
+  background-color: #EEFCE0;
+
+  .table-hover {
+    tbody {
+      tr:hover {
+        cursor: pointer;
+      }
+      td:hover {
+        cursor: pointer;
+      }
+    }
+  }
+
+  #content-container{
+    background-color: #EEFCE0;
+  }
+}
+
+
+/* Navbar - Header */
+ 
+.navbar-header {
+
+  .brand-title {
+    background-color: #FFF;
+  }
+
+  a.navbar-brand {
+
+    img.brand-icon {
+      max-width:80px;
+      height:auto;
+      width: auto;
+      padding: 5px 10px;
+    }
+  }
+}
+
+.navbar-content {
+  li#dropdown-user{
+    i.psi-administrator {
+      line-height: inherit;
+    }
+  }
+
+  .nav-center-header {
+    position:absolute;
+    display:  inline-block;
+    line-height:  1;
+    float: none;
+    width: calc(100% - 220px);
+    text-align:  center;    
+    h4 {
+      line-height: 55px;
+      margin-top: 0px;
+      margin-bottom: 0px;      
+    }
+  }
+}
+
+#batches-table {
+  td {
+    a.btn {
+      margin-left: 1px;
+      margin-bottom: 2px;
+    }
+  }
+}
+
+.btn {
+  img.img-icon {
+    height: 16px;
+    width: 16px;
+  }
+  font-weight: 700;
+}
+
+.nav-tabs {
+  li.active {
+    a {
+      font-weight: 700;
+    }
+  }
+}
+
+.tab-content {
+  .tab-pane {
+    padding: 25px 10px 10px 10px;    
+  }
+}
+
+.back-btn  {
+  margin-top: 5px;
+  margin-left: 5px;
+}
+
+
+.btn-command {
+  min-width: 65px;
+}
+
+@media (min-width: 768px) {
+  .navbar-content {
+    margin-left: 200px;
+  }
+}
+
+@media (max-width: 768px) {
+  .navbar-top-links .dropdown-menu {
+    right: 0;
+    left: auto;
+    width: 50%;    
+  }
+}
+
+.doserate-form {
+  .form-group  {
+    margin-left: 0 !important;
+  }
+}
+
+.sensor-chart {
+  height: 350px;
+  width: 100%;
+}
+.dp-btn  {
+  font-weight: 700;
+}
+
+.ba-form-container {
+  max-height: 480px;
+  overflow-y: scroll;
+}
+
+.scroll-top {
+  .chevron-up  {
+    padding-top: 2px;
+  }
+}
+
+.bootstrap-table {
+  .search {
+    input {
+      font-weight: 700;
+      border: 2px solid rgb(197, 196, 196);    
+      border-radius: 4px;  
+    }
+  }
+  .columns {
+    .btn-group {
+      button.btn {
+        border: 2px solid transparent;
+        background-color: #f2f2f2;
+        border-color: #c5c4c4 !important;
+      }
+    }
+  }
+}

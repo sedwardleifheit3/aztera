@@ -1,0 +1,18 @@
+
+#NOTES
+`As we go along with the development, we find something that needs improvement. Thus, it is good to put  recommendations and/or suggestions here`
+
+## UI/UX
+
+## Laravel 5.5 Code Base
+
+
+## Previous Mysql Database design
+ 1. DB tables naming convention. All table names are in singular form and it is good to have it in plural form. 
+    Example from `batch` to `batches` and `sensor` to `sensors`
+
+ 2. DB tables too normalized. `batch` and `sensor` table render useless because all the data are in "information" table,
+    just like `sensor` table where the bunch of data is in `sensor_information` table. If the main reason why 
+    it is being done this way is to keep track all the changes or serves as log, then maybe it is a good thing to store the "latest" value in `sensor` table instead. 
+    That way, we don't neet to have "sub select statement" in sql query.
+
